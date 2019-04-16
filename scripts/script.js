@@ -17,6 +17,7 @@ $(document).ready(function(){
 			$(".contacts").toggleClass("opacity");
 		}
 	});
+	
     $(".contacts").hover(function(){
     	if (!checkerAnim) {
     		checkerAnim = !checkerAnim;
